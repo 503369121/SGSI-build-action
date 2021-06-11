@@ -11,7 +11,7 @@ env:
   ZIP_NAME: 'update.zip'
   OS_TYPE: 'Generic'
   BUILD_TYPE: 'a-only'
-  REPACK_NAME: 'SGSI.zip'
+  REPACK_NAME: 'redfin a-only.zip'
   VERSION: '12'
   upload_action-gh-release: 'true'
   SETUP: 'true'
