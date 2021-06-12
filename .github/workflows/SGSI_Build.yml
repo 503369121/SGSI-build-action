@@ -8,7 +8,7 @@ on:
     
 env:              
   ROM_URL: 'https://dl.google.com/developers/android/sc/images/ota/redfin-ota-spp2.210219.008-3d61e529.zip'
-  ZIP_NAME: 'update.zip'
+  ZIP_NAME: 'redfin-ota-spp2.210219.008-3d61e529.zip'
   OS_TYPE: 'Generic'
   BUILD_TYPE: 'a-only'
   REPACK_NAME: 'redfin a-only.zip'
