@@ -72,7 +72,7 @@ jobs:
              cd $GITHUB_WORKSPACE/SGSI-build-tool
              pwd
              mkdir -p upload
-             zip -r SGSI.zip . -i ./SGSI/*
+             zip -r $REPACK_NAME ./SGSI/*
              if [[ $(du -sb "$REPACK_NAME" | awk '{print $1}') -gt 2097152000 ]];then
                  echo -e "split packaging..."
                  tar -cpzf - "$REPACK_NAME" | split -d -b 1024m - "upload/$REPACK_NAME"
