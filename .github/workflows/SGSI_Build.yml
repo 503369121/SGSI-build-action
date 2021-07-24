@@ -10,7 +10,7 @@ env:
   ROM_URL: 'https://dl3.smartisan.com/ota/rls.darwin-mol-8.0.0-20201230-SEKSA.darwin-user/202101101858/8.1.2-202101101524-user-drw-2c5179fdb7.zip'
   ZIP_NAME: '8.1.2-202101101524-user-drw-2c5179fdb7.zip'
   OS_TYPE: 'Generic'
-  BUILD_TYPE: 'A'
+  BUILD_TYPE: 'A-ONLY'
   REPACK_NAME: 'SmartisanOS8.0.0.zip'
   VERSION: '10'
   upload_action-gh-release: 'true'
